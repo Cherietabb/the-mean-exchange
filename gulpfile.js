@@ -9,3 +9,9 @@ function requireTask (name) {
 require('fs')
     .readdirSync(path)
     .forEach(requireTask);
+    
+var gulp = require("gulp");
+
+gulp.task('default', function() {
+    
+})
